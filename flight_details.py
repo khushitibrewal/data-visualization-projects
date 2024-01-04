@@ -1,3 +1,8 @@
+#run following command in terminal
+python3 -m pip install packaging
+python3 -m pip install pandas dash
+pip3 install httpx==0.20 dash plotly
+
 # Import required libraries
 import pandas as pd
 import dash
@@ -104,3 +109,17 @@ def get_graph(entered_year):
 # Run the app
 if __name__ == '__main__':
     app.run_server()
+
+
+#to launch aaplication, rum following command in terminal
+python3 file_name (here, file name is dash_interactivity.py)
+
+
+
+
+  some doubts cleared:
+  1. run the required first 3 command in terminal and create new file
+  2. to create new file , methos 1 - click on file and choose new file and give a name. method 2- click on explorer icon on left bar, go to project anf coose the first icon shown.
+  3. after creating new file, create new terminal.
+  4. to launch application, click on skill lab icon on left bar, click on launch icon. put the port number obtained by giving pyhton3 file_name command in terminal
+      (note: the last 4 digit is the port number) , and click on launch application
